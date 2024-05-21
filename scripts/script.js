@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const elements = document.querySelectorAll(".typewriter-text");
     const speed = 100;
-    const pauseBetweenElements = 300;
+    const pauseBetweenElements = 150;
 
     function typeWriter(element, text, index, callback) {
         if (index < text.length) {
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
             callback();
         }
     }
-  
+
     function startTypewriterEffect(elements, index = 0) {
         if (index < elements.length) {
             const element = elements[index];
@@ -23,4 +23,4 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   
     startTypewriterEffect(elements);
-  });
+});
