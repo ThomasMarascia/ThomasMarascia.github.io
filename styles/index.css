@@ -1,3 +1,4 @@
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -8,9 +9,10 @@
 .containerFooter {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 75%;
 }
 
 .topHeader {
