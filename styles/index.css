@@ -5,6 +5,13 @@
     display: flex;
     align-items: center;
 }
+.containerFooter {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
 
 .topHeader {
     display: flex;
@@ -49,6 +56,9 @@
     .container {
         flex-direction: column;
         text-align: center;
+    }
+    .containerFooter {
+        font-size: x-small;
     }
     .headerNav {
         display: none;
