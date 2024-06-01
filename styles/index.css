@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'aldrich';
+    src: url(fonts/aldrich/Aldrich-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'homespun';
+    src: url(fonts/homespun/homespun.ttf) format('truetype');
+}
 
 .container {
     max-width: 1200px;
@@ -34,9 +42,11 @@
 }
 
 .navbar-nav .nav-link {
+    color: rgb(180, 180, 180);
     transition: color 0.3s ease;
     text-decoration: none;
     text-underline-offset: 10px;
+    font-size: 20px;
 }
 
 .navbar-nav .nav-link:hover {
@@ -47,6 +57,7 @@
 .pretty-button {
     color: #4fedff;
     transition: color 0.3s ease;
+    font-size: 20px;
 }
 
 .pretty-button:hover {
@@ -114,7 +125,6 @@
 }
 
 .typewriter-text {
-    font-family: 'Trebuchet MS';
     white-space: nowrap;
     overflow: hidden;
 }
