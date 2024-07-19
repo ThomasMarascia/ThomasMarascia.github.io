@@ -26,13 +26,13 @@
 .portfolioBtns {
     border-radius: 12px;
     border: 1px solid #ccc;
-    background-color: #545454;
+    background-color: #353535;
     cursor: pointer;
     width: 350px;
     margin: 15px;
 }
 .portfolioBtns:hover {
-    background-color: #878787;
+    background-color: #5b5b5b;
 }
 .portfolioBtns:active {
     background-color: rgba(100, 0, 0, 0.5);
