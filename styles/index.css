@@ -19,8 +19,23 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 70%;
+    justify-content: center;
+    width: 75%;
+    margin-top: 15px;
+}
+.portfolioBtns {
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    width: 350px;
+    margin: 15px;
+}
+.portfolioBtns:hover {
+    background-color: #d1d1d1;
+}
+.portfolioBtns:active {
+    background-color: rgba(88, 0, 0, 0.268);
 }
 
 .topHeader {
@@ -58,6 +73,7 @@
     color: #4fedff;
     transition: color 0.3s ease;
     font-size: 15px;
+    margin-left: 5%;
 }
 
 .pretty-button:hover {
@@ -97,29 +113,29 @@
         height: 200px;
     }
     .carousel-caption {
-        top: 20px;
-        font-size: 12px;
+        top: 133px;
+        font-size: 10px;
 
     }
 }
   
 @media (min-width: 540px) and (max-width: 919.98px) {
     .carousel {
-        height: 300px;
+        height: 350px;
     }
     .carousel-caption {
-        top: 150px;
-        font-size: 18px;
+        top: 233px;
+        font-size: 15px;
     }
 }
   
 @media (min-width: 920px){
     .carousel {
-        height: 400px;
+        height: 500px;
     }
     .carousel-caption {
-        top: 250px;
-        font-size: 24px;
+        top: 333px;
+        font-size: 20px;
 
     }
 }
