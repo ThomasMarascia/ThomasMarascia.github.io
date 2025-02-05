@@ -110,7 +110,7 @@
 
 @media (max-width: 539.98) {
     .carousel {
-        height: 200px;
+        height: 400px;
     }
     .carousel-caption {
         top: 133px;
@@ -121,7 +121,7 @@
   
 @media (min-width: 540px) and (max-width: 919.98px) {
     .carousel {
-        height: 350px;
+        height: 550px;
     }
     .carousel-caption {
         top: 233px;
@@ -131,7 +131,7 @@
   
 @media (min-width: 920px){
     .carousel {
-        height: 500px;
+        height: 750px;
     }
     .carousel-caption {
         top: 333px;
