@@ -1,27 +1,32 @@
 function showProject(id) {
-    document.querySelectorAll('.project').forEach(p => p.classList.remove('active'));
-    document.querySelectorAll('.project-button').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.project').forEach(p => p.style.display = 'none');
 
-    const projectEl = document.getElementById(id);
-    if (projectEl) projectEl.classList.add('active');
+    const el = document.getElementById(id);
+    if (el) el.style.display = 'block';
 
-    document.querySelectorAll('.project-button').forEach(btn => {
+    document.querySelectorAll('.project-btn').forEach(btn => {
+    btn.classList.remove('active');
     if (btn.dataset.project === id) {
         btn.classList.add('active');
     }
     });
 
+    // Close sidebar on mobile
+    const sidebar = document.getElementById('sidebarMenu');
+    const bsCollapse = bootstrap.Collapse.getInstance(sidebar);
+    if (bsCollapse && window.innerWidth < 992) {
+    bsCollapse.hide();
+    }
+
     history.replaceState(null, '', `?project=${id}`);
 }
 
-// Attach event listeners (no inline onclick)
-document.querySelectorAll('.project-button').forEach(btn => {
+document.querySelectorAll('.project-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-        showProject(btn.dataset.project);
+    showProject(btn.dataset.project);
     });
 });
 
-// Handle URL param on load
 window.onload = () => {
     const params = new URLSearchParams(window.location.search);
     const project = params.get('project') || 'p1';

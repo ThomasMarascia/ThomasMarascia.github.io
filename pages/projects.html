@@ -48,364 +48,174 @@
     </div>
     <div style="position:relative" class="mt-5 rainbow-line"></div>
 
-    
-
-    <div class="project-container">
-        <!-- LEFT SIDE -->
-        <div class="sidebar">
-            <h3>Full Games</h3>
-            <button class="project-button" data-project="p1">Exodus of Descent</button>
-            <button class="project-button" data-project="p2">Bad Tides</button>
-            <button class="project-button" data-project="p3">Cubox</button>
-            <button class="project-button" data-project="p4">TF2dle</button>
-            <button class="project-button" data-project="p5">Ghostcon: Elementals</button>
-            <button class="project-button" data-project="p6">BlackJack Revamped</button>
-            <button class="project-button" data-project="p7">SciSpy: Match Mobile</button>
-
-            <h3>System Assets</h3>
-            <button class="project-button" data-project="p8">Light Detection</button>
-            <button class="project-button" data-project="p9">2D Mining</button>
-            <button class="project-button" data-project="p10">Dynamic Ability</button>
-            <button class="project-button" data-project="p11">Grid Build</button>
-            <button class="project-button" data-project="p12">Simple Calendar</button>
-
-            <h3>Game Jams</h3>
-            <button class="project-button" data-project="p13">Nine Circles</button>
-            <button class="project-button" data-project="p14">Destiny's Choice</button>
-            <button class="project-button" data-project="p15">Netherkin</button>
-            <button class="project-button" data-project="p16">StarChart</button>
-            
+    <!-- LEFT SIDE -->
+    <nav class="navbar navbar-dark bg-dark d-lg-none">
+        <div class="container-fluid">
+            <!-- Hamburger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
+    </nav>
 
-        <!-- RIGHT SIDE -->
-        <div class="project-content">
-            <!-- Full Games -->
-            <div id="p1" class="project">
-                <h1>Exodus of Descent</h1>
-                <div class="project-media">[Video / GIF here]</div>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- SIDEBAR -->
+            <div class="col-lg-3 col-md-4 sidebar collapse d-lg-block" id="sidebarMenu">
+                <div class="p-3 d-flex flex-column gap-2">
+                    <h2>Published Games</h2>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p1">Exodus of Descent</button>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p2">Bad Tides</button>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p3">Cubox</button>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p4">TF2dle</button>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p5">Ghostcon: Elementals</button>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p6">BlackJack Revamped</button>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p7">SciSpy: Match Mobile</button>
 
-                <div class="project-section">
+                    <h2>Developer Assets</h2>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p8">Light Detection</button>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p9">2D Mining</button>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p10">Dynamic Ability</button>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p11">Grid Build</button>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p12">Simple Calendar</button>
+
+                    <h2>Game Jams</h2>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p13">Nine Circles</button>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p14">Destiny's Choice</button>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p15">Netherkin</button>
+                    <button class="btn btn-outline-light project-btn w-100" data-project="p16">StarChart</button>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="col-lg-9 col-md-8 p-4">
+                <!-- Full Games -->
+                <div id="p1" class="project">
+                    <h1>Exodus of Descent</h1>
+                    <div class="media-box" style="width: 100%; height: 60vh">
+                        <img src="..\images\exodusImg.png">
+                    </div>
                     <strong>Description</strong>
                     <p></p>
                     <a href="https://store.steampowered.com/app/2320740/Exodus_of_Descent" target="_blank">Link To Steam Page</a>
                 </div>
 
-                <div class="project-section">
-                <strong>Features</strong>
-                <ul>
-                    <li>Grid snapping on uneven terrain</li>
-                    <li>Ghost preview placement</li>
-                    <li>Rotation + validation system</li>
-                </ul>
-                </div>
-
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                    <span class="tag">Unity</span>
-                    <span class="tag">C#</span>
-                    <span class="tag">Physics</span>
-                </div>
-            </div>
-
-            <div id="p2" class="project">
-                <h1>Bad Tides</h1>
-                <div class="project-media">[Video / GIF here]</div>
-                <div class="project-section">
+                <div id="p2" class="project">
+                    <h1>Bad Tides</h1>
+                    <div class="media-box">[Video / GIF here]</div>
                     <strong>Description</strong>
                     <p></p>
                     <a href="" target="_blank">Link To Steam Page</a>
                 </div>
 
-                <div class="project-section">
-                    <strong>Features</strong>
-                    <ul>
-                    </ul>
-                </div>
-
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                </div>
-            </div>
-
-            <div id="p3" class="project">
-                <h1>Cubox</h1>
-                <div class="project-media">[Video / GIF here]</div>
-                <div class="project-section">
+                <div id="p3" class="project">
+                    <h1>Cubox</h1>
+                    <div class="media-box">[Video / GIF here]</div>
                     <strong>Description</strong>
                     <p></p>
                     <a href="https://cubox.io" target="_blank">Link To Game</a>
                 </div>
 
-                <div class="project-section">
-                    <strong>Features</strong>
-                    <ul>
-                    </ul>
-                </div>
-
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                </div>
-            </div>
-
-            <div id="p4" class="project">
-                <h1>TF2dle</h1>
-                <div class="project-media">[Video / GIF here]</div>
-                <div class="project-section">
+                <div id="p4" class="project">
+                    <h1>TF2dle</h1>
+                    <div class="media-box">[Video / GIF here]</div>
                     <strong>Description</strong>
                     <p></p>
                     <a href="https://thomasmarascia.itch.io/tf2dle" target="_blank">Link To Itch Page</a>
                 </div>
 
-                <div class="project-section">
-                    <strong>Features</strong>
-                    <ul>
-                    </ul>
-                </div>
-
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                </div>
-            </div>
-
-            <div id="p5" class="project">
-                <h1>Ghostcon: Elementals</h1>
-                <div class="project-media">[Video / GIF here]</div>
-                <div class="project-section">
+                <div id="p5" class="project">
+                    <h1>Ghostcon: Elementals</h1>
+                    <div class="media-box">[Video / GIF here]</div>
                     <strong>Description</strong>
                     <p></p>
                     <a href="https://store.steampowered.com/app/2335890/Ghostcon_Elementals" target="_blank">Link To Steam Page</a>
                 </div>
 
-                <div class="project-section">
-                    <strong>Features</strong>
-                    <ul>
-                    </ul>
-                </div>
-
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                </div>
-            </div>
-
-            <div id="p6" class="project">
-                <h1>BlackJack Revamped</h1>
-                <div class="project-media">[Video / GIF here]</div>
-                <div class="project-section">
+                <div id="p6" class="project">
+                    <h1>BlackJack Revamped</h1>
+                    <div class="media-box">[Video / GIF here]</div>
                     <strong>Description</strong>
                     <p></p>
-                    </div>
-
-                <div class="project-section">
-                    <strong>Features</strong>
-                    <ul>
-                    </ul>
                 </div>
 
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                </div>
-            </div>
-
-            <div id="p7" class="project">
-                <h1>SciSpy: Match Mobile</h1>
-                <div class="project-media">[Video / GIF here]</div>
-                <div class="project-section">
+                <div id="p7" class="project">
+                    <h1>SciSpy: Match Mobile</h1>
+                    <div class="media-box">[Video / GIF here]</div>
                     <strong>Description</strong>
                     <p></p>
                     <a href="https://github.com/ThomasMarascia/SciSpyDemo/tree/main" target="_blank">Link To Github Page</a>
                 </div>
 
-                <div class="project-section">
-                    <strong>Features</strong>
-                    <ul>
-                    </ul>
-                </div>
-
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                </div>
-            </div>
-
-            <!-- Assets -->
-            <div id="p8" class="project">
-                <h1>Light Detection System</h1>
-                <div class="project-media">[Video / GIF here]</div>
-                <div class="project-section">
+                <!-- Assets -->
+                <div id="p8" class="project">
+                    <h1>Light Detection System</h1>
+                    <div class="media-box">[Video / GIF here]</div>
                     <strong>Description</strong>
                     <p></p>
                     <a href="https://assetstore.unity.com/packages/slug/330808" target="_blank">Unity Asset Store Page</a>
                 </div>
 
-                <div class="project-section">
-                    <strong>Features</strong>
-                    <ul>
-                    </ul>
-                </div>
-
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                </div>
-            </div>
-
-            <div id="p9" class="project">
-                <h1>2D Mining System</h1>
-                <div class="project-media">[Video / GIF here]</div>
-                <div class="project-section">
+                <div id="p9" class="project">
+                    <h1>2D Mining System</h1>
+                    <div class="media-box">[Video / GIF here]</div>
                     <strong>Description</strong>
                     <p></p>
                     <a href="https://assetstore.unity.com/packages/slug/323492" target="_blank">Unity Asset Store Page</a>
                 </div>
 
-                <div class="project-section">
-                    <strong>Features</strong>
-                    <ul>
-                    </ul>
-                </div>
-
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                </div>
-            </div>
-
-            <div id="p10" class="project">
-                <h1>Ability System</h1>
-                <div class="project-media">[Video / GIF here]</div>
-                <div class="project-section">
+                <div id="p10" class="project">
+                    <h1>Ability System</h1>
+                    <div class="media-box">[Video / GIF here]</div>
                     <strong>Description</strong>
                     <p></p>
                     <a href="https://assetstore.unity.com/packages/slug/323131" target="_blank">Unity Asset Store Page</a>
                 </div>
-
-                <div class="project-section">
-                    <strong>Features</strong>
-                    <ul>
-                    </ul>
-                </div>
-
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                </div>
-            </div>
-            <div id="p11" class="project">
-                <h1>Build System</h1>
-                <div class="project-media">[Video / GIF here]</div>
-                <div class="project-section">
+                <div id="p11" class="project">
+                    <h1>Build System</h1>
+                    <div class="media-box">[Video / GIF here]</div>
                     <strong>Description</strong>
                     <p></p>
                     <a href="https://assetstore.unity.com/packages/slug/319108" target="_blank">Unity Asset Store Page</a>
                 </div>
-
-                <div class="project-section">
-                    <strong>Features</strong>
-                    <ul>
-                    </ul>
-                </div>
-
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                </div>
-            </div>
-            <div id="p12" class="project">
-                <h1>Simple Calendar</h1>
-                <div class="project-media">[Video / GIF here]</div>
-                <div class="project-section">
+                <div id="p12" class="project">
+                    <h1>Simple Calendar</h1>
+                    <div class="media-box">[Video / GIF here]</div>
                     <strong>Description</strong>
                     <p></p>
                     <a href="https://assetstore.unity.com/packages/slug/313178" target="_blank">Unity Asset Store Page</a>
                 </div>
-
-                <div class="project-section">
-                    <strong>Features</strong>
-                    <ul>
-                    </ul>
-                </div>
-
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                </div>
-            </div>
-            <div id="p13" class="project">
-                <h1>Nine Circles</h1>
-                <div class="project-media">[Video / GIF here]</div>
-                <div class="project-section">
+                <div id="p13" class="project">
+                    <h1>Nine Circles</h1>
+                    <div class="media-box">[Video / GIF here]</div>
                     <strong>Description</strong>
                     <p></p>
                     <a href="https://thomasmarascia.itch.io/nine-circles" target="_blank">Unity Asset Store Page</a>
                 </div>
-
-                <div class="project-section">
-                    <strong>Features</strong>
-                    <ul>
-                    </ul>
-                </div>
-
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                </div>
-            </div>
-            <div id="p14" class="project">
-                <h1>Destiny's Choice</h1>
-                <div class="project-media">[Video / GIF here]</div>
-                <div class="project-section">
+                <div id="p14" class="project">
+                    <h1>Destiny's Choice</h1>
+                    <div class="media-box">[Video / GIF here]</div>
                     <strong>Description</strong>
                     <p></p>
                     <a href="https://thomasmarascia.itch.io/destinys-choice" target="_blank">Unity Asset Store Page</a>
                 </div>
-
-                <div class="project-section">
-                    <strong>Features</strong>
-                    <ul>
-                    </ul>
-                </div>
-
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                </div>
-            </div>
-            <div id="p15" class="project">
-                <h1>Netherkin</h1>
-                <div class="project-media">[Video / GIF here]</div>
-                <div class="project-section">
+                <div id="p15" class="project">
+                    <h1>Netherkin</h1>
+                    <div class="media-box">[Video / GIF here]</div>
                     <strong>Description</strong>
                     <p></p>
                     <a href="https://terrance-bowman.itch.io/netherkin" target="_blank">Unity Asset Store Page</a>
                 </div>
-
-                <div class="project-section">
-                    <strong>Features</strong>
-                    <ul>
-                    </ul>
-                </div>
-
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                </div>
-            </div>
-            <div id="p16" class="project">
-                <h1>StarChart</h1>
-                <div class="project-media">[Video / GIF here]</div>
-                <div class="project-section">
+                <div id="p16" class="project">
+                    <h1>StarChart</h1>
+                    <div class="media-box">[Video / GIF here]</div>
                     <strong>Description</strong>
                     <p></p>
                     <a href="https://app.thexplace.ai/app/talent/Thomas_Marascia/portfolio/667b60764c94f6f53e42d549" target="_blank">Unity Asset Store Page</a>
                 </div>
-
-                <div class="project-section">
-                    <strong>Features</strong>
-                    <ul>
-                    </ul>
-                </div>
-
-                <div class="project-section">
-                    <strong>Tech</strong><br />
-                </div>
             </div>
-        
-        
         </div>
     </div>
-
-
 
     <div class="rainbow-line mt-5" style="background:#4fedff; height: 1px;"></div>
 
