@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Hey there inspector! See the source code here: https://github.com/ThomasMarascia/ThomasMarascia.github.io
+    I ask that you don't copy the website and just change pictures and text to fit yours but feel free to use as inspiration.
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6138817460030716"
+    crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-dark" style="color: rgb(180, 180, 180); font-family: aldrich;">
+    <div class="topHeader" style="padding: 3%;">
+        <a style="text-decoration: none;" class="headerBrand" href="../index.html" rel="home">
+            <img width="48" height="auto" src="../images/bitmogiwithLaptop.png" alt="logo">
+            <p class="mt-3" style="color: #4fedff;">Thomas Marascia</p>
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html?project=p1" style="color:#4fedff; text-decoration: underline;">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Thomas_Marascia_Website.pdf" target="_blank">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:marasciagames@gmail.com?subject=Subject&body=Email%20body" target="_blank">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <button class="headerButton navbar-toggler"></button>
+    </div>
+    <div style="position:relative" class="mt-5 rainbow-line"></div>
+
+    <!-- LEFT SIDE -->
+    <nav class="navbar navbar-dark bg-dark d-lg-none">
+        <div class="container-fluid">
+            <!-- Hamburger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- SIDEBAR -->
+            <div class="col-lg-3 col-md-4 sidebar collapse d-lg-block" id="sidebarMenu">
+                <div class="p-3 d-flex flex-column gap-2">
+                    <h2>Games</h2>
+                    <button class="project-btn w-100" data-project="p1">Bad Tides (upcoming)</button>
+                    <button class="project-btn w-100" data-project="p2">Exodus of Descent</button>
+                    <button class="project-btn w-100" data-project="p3">TF2dle</button>
+                    <button class="project-btn w-100" data-project="p4">Ghostcon: Elementals</button>
+                    <button class="project-btn w-100" data-project="p5">BlackJack Revamped</button>
+                    <button class="project-btn w-100" data-project="p6">Cubox</button>
+                    <button class="project-btn w-100" data-project="p7">SciSpy: Match Mobile</button>
+
+                    <h2>Developer Assets</h2>
+                    <button class="project-btn w-100" data-project="p8">Light Detection</button>
+                    <button class="project-btn w-100" data-project="p9">2D Mining</button>
+                    <button class="project-btn w-100" data-project="p10">Dynamic Ability</button>
+                    <button class="project-btn w-100" data-project="p11">Grid Building</button>
+                    <button class="project-btn w-100" data-project="p12">Simple Calendar</button>
+
+                    <h2>Game Jams</h2>
+                    <button class="project-btn w-100" data-project="p13">Nine Circles</button>
+                    <button class="project-btn w-100" data-project="p14">Destiny's Choice</button>
+                    <button class="project-btn w-100" data-project="p15">StarChart</button>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="col-lg-9 col-md-8 p-4">
+                <!-- Full Games -->
+
+                <div id="p1" class="project">
+                    <h1>Bad Tides</h1>
+                    <div class="banner-media-box">
+                        <img src="../images/UnderConstruction.png">
+                    </div>
+                    <h4>Description</h4>
+                    <p>Bad Tides is a 4-player cooperative party game where players operate and upgrade a shared boat to hunt sea monsters, dive for valuable loot, and fish to survive and profit.</p>
+                    <p>Bad Tides is under development by <a href="https://www.linkedin.com/company/crouton-games" target="_blank">Crouton Games'</a> indie team and is expected to launch on steam in Q3 of 2026.</p>
+                    <br>
+                    <h4>Duties</h4>
+                    <ul>
+                        <li><strong>Project Management:</strong> As the founder of Crouton Games, I handle many of the project management duties including hiring, scheduling meetings, setting deadlines, and assigning work.</li>
+                        <li><strong>Programming Team Lead:</strong> As the lead programmer, I coordinate with a 5 person team of programmers working on all aspects of Bad Tides' development.</li>
+                        <li><strong>Specific Systems:</strong> Networking (syncing and joining lobbies especially), player movement and combat, NPC AI, HUD and menus, and many other general core systems.</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+
+                        <span class="tag">Multiplayer</span>
+
+                        <span class="tag">Project Management</span>
+                        <span class="tag">Combat</span>
+                        <span class="tag">Networking</span>
+                        <span class="tag">AI</span>
+                        <span class="tag">UI</span>
+
+                        <span class="tag">GitHub</span>
+                    </div>
+
+                    
+                </div>
+
+                <div id="p2" class="project">
+                    <h1>Exodus of Descent</h1>
+                    <div class="banner-media-box">
+                        <img src="../images/exodusImg.png">
+                    </div>
+                    <h4>Description</h4>
+                    <p>Exodus of Descent is a dynamic third person online dungeon-looter RPG inspired by games such as Runescape, Dark and Darker, and Monster Hunter. Party up with your friends to run through intense PvE dungeons. Each dungeon contains challenging enemies, bosses, secrets to find, puzzles needed to solve, and 150+ lootable items including weapons, armor pieces, amulets, and crafting materials. Risk it all to Escape your Descent. Will you make it out alive?</p>
+                    <p>Exodus of Descent is under development by <a href="https://yoopergamestudios.com/home" target="_blank">Yooper Game Studios</a> and is set to launch in 2026 <a href="https://store.steampowered.com/app/2320740/Exodus_of_Descent" target="_blank">on Steam</a>.</p>
+                    <br>
+                    <h4>Duties</h4>
+                    <ul>
+                        <li><strong>Systems:</strong> I worked on the inventory, crafting, shopping, and interaction systems.</li>
+                        <li><strong>UI:</strong> I hooked up many systems to the player's HUD and created functioning menus for the inventory, crafting, and shopping.</li>
+                        <li><strong>Multiplayer Elements:</strong> Some multiplayer elements I worked on included pinging, item dropping/sharing, and syncing interactables and loot over the network.</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tag">Unreal Engine</span>
+                        <span class="tag">Blueprints</span>
+                        <span class="tag">C++</span>
+
+                        <span class="tag">Multiplayer</span>
+                        <span class="tag">RPG</span>
+                        
+                        <span class="tag">Core Systems</span>
+                        <span class="tag">UI</span>
+
+                        <span class="tag">Perforce</span>
+                        <span class="tag">Azure</span>
+                    </div>
+                </div>
+
+                <div id="p3" class="project">
+                    <h1>TF2dle</h1>
+                    <div class="banner-media-box">
+                        <img src="../images/tf2dleImg.png">
+                    </div>
+                    <h4>Description</h4>
+                    <p>TF2dle is a free wordle-like web game where players try to guess a weapon from team fortress 2 when given one of its stat lines in 5 tries.</p>
+                    <p>TF2dle came out in 2024 and has had thousands of players. It continues to get hundreds of monthly browser plays on <a href="https://thomasmarascia.itch.io/tf2dle" target="_blank">its Itch Page</a>.</p>
+                    <br>
+                    <h4>Duties</h4>
+                    <ul>
+                        <li><strong>Programming:</strong> Since this was a solo project completed in under a week, the programming was kept very simple. The game simply chooses a weapon from the 200+ weapons in TF2 and then displays one of it's stat lines. When the player guesses, it checks what categories are correct and what categories are wrong and displays that. If they got the right weapon, they win; if they guessed wrong 5 times, they lose.</li>
+                        <li><strong>Data Collection:</strong> Because there is no database to pull the necessary data for weapons (name, stats, class, slot, damage type, and release year), a lot of the development time was used making a small dataset of 200+ items. To do this, I made an API to pull the data from the TF2 wiki. This actually exposed a lot of wrong info on the wiki which has been fixed since.</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Web-Game</span>
+
+                        <span class="tag">Wordle-like</span>
+
+                        <span class="tag">Data</span>
+                    </div>
+                </div>
+
+                <div id="p4" class="project">
+                    <h1>Project: Elementals</h1>
+                    <div class="banner-media-box">
+                        <img src="../images/projectElementals.jpg">
+                    </div>
+                    <h4>Description</h4>
+                    <p>Project: Elementals is a Sci-fi Action-RPG with choice based dialogue, third person elemental powers, and first person shooting.</p>
+                    <p>Project: Elementals is unreleased with an unannounced release date <a href="https://store.steampowered.com/app/2335890/Ghostcon_Elementals" target="_blank">on Steam</a>.</p>
+                    <br>
+                    <h4>Duties</h4>
+                    <ul>
+                        <li><strong>Item System:</strong> I adjusted the built in Lyra item system to allow for dropping items and additional item types.</li>
+                        <li><strong>Weapon Design:</strong> I designed and created multiple weapons including sniper rifles, rocket launchers, and grenade launchers.</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tag">Unreal Engine</span>
+                        <span class="tag">Lyra</span>
+                        <span class="tag">C++</span>
+
+                        <span class="tag">Multiplayer</span>
+                        <span class="tag">FPS</span>
+                        <span class="tag">RPG</span>
+
+                        <span class="tag">Combat</span>
+
+                        <span class="tag">Perforce</span>
+                    </div>
+                </div>
+                
+                <div id="p5" class="project">
+                    <h1>BlackJack Revamped</h1>
+                    <div class="banner-media-box">
+                        <img src="../images/blackjackImg.png">
+                    </div>
+                    <h4>Description</h4>
+                    <p>BlackJack Revamped is a free mobile game where you can pick between 2 modes: Classic and Revamped. In classic, you play a normal game of blackjack against a bot. In revamped, you catch falling cards and play against the odds of a dynamically changing dealer's upcard.</p>
+                    <p>There are no in app purchases or ways to gamble real money. Ads are only shown as rewarded ads to get some extra in game cash to play with if the player runs out of funds.</p>
+                    <p>Features include leaderboards through firebase, achievements, rewarded ads through AdMob, and an offline mode.</p>
+                    <p>BlackJack Revamped's servers were shutdown and the game was removed from the app store as the fully free system with no forced ads was not sustainable long term.</p>
+                    <p>This was a great learning oportunity as my first solo published game.</p>
+                    <br>
+                    <h4>Duties</h4>
+                    <ul>
+                        <li><strong>Systems:</strong> Since this was a solo project, I worked on all programming done for this game including both modes</li>
+                        <li><strong>API Integration:</strong> I integrated Google AdMob for ads and Firestore Firebase for player data and leaderboards</li>
+                        <li><strong>Publisher:</strong> I found testers and went through the google play store publishing process which, at the time, needed 20 active testers at once for a full week before it would publish on the store.</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Mobile</span>
+                        <span class="tag">Android</span>
+
+                        <span class="tag">Publishing</span>
+                        <span class="tag">Database</span>
+
+                        <span class="tag">Firestore</span>
+                        <span class="tag">Google AdMob</span>
+                    </div>
+                </div>
+
+                <div id="p6" class="project">
+                    <h1>Cubox</h1>
+                    <div class="banner-media-box">
+                        <img src="../images/cuboxImg.png">
+                    </div>
+                    <h4>Description</h4>
+                    <p>Cubox is a 3D Blocky Open-World MMORPG where you can build, farm, craft, and fight. Explore biomes, dungeons and cities. Complete quests, rate player houses and tame pets.</p>
+                    <p>Cubox is <a href="https://cubox.io" target="_blank">live on the web</a>.</p>
+                    <br>
+                    <h4>Duties</h4>
+                    <ul>
+                        <li><strong>Design:</strong> For Cubox, I worked as a monster and item designer and balancer. I managed a database of stats.</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">Web-Game</span>
+
+                        <span class="tag">MMO</span>
+                        <span class="tag">RPG</span>
+
+                        <span class="tag">Design</span>
+                        <span class="tag">Balancing</span>
+
+                        <span class="tag">Github</span>
+                    </div>
+                </div>
+
+                <div id="p7" class="project">
+                    <h1>SciSpy: Match Mobile</h1>
+                    <div class="banner-media-box">
+                        <img src="../images/scispyImg.png">
+                    </div>
+                    <h4>Description</h4>
+                    <p>SciSpy: Match Mobile is a match 3 mobile game where the player must clear levels by reaching a minimum score and/or matching specific items in a given number of moves. There are abilities and a campaign.</p>
+                    <p>This was my first contracted game development position which I worked on in college for Kelly Z Riley. After I graduated and moved, development was passed to a new team.</p>
+                    <p>The full game is not available but a <a href="https://github.com/ThomasMarascia/SciSpyDemo/tree/main" target="_blank">short demo is available on my github.</a></p>
+                    <br>
+                    <h4>Duties</h4>
+                    <ul>
+                        <li><strong>Programming:</strong> I worked on the grid, economy system, and menus including title, settings, and level selector.</li>
+                        <li><strong>Player Data:</strong> I used Firebase Firestore to save player data including level progress, achievements, and leaderboards.</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tag">Godot</span>
+                        <span class="tag">gdScript</span>
+                        <span class="tag">Mobile</span>
+
+                        <span class="tag">Match 3</span>
+
+                        <span class="tag">Firebase</span>
+                        <span class="tag">Github</span>
+                    </div>
+                </div>
+
+                <!-- Assets -->
+                <div id="p8" class="project">
+                    <h1>Light Detection System</h1>
+                    <div class="banner-media-box">
+                        <img src="../images/LDSSystemImg.png">
+                    </div>
+                    <h4>Description</h4>
+                    <p>The Light Detection System is a Unity Asset <a href="https://assetstore.unity.com/packages/slug/330808" target="_blank">available on the Unity Asset Store</a>.</p>
+                    <p>The asset includes 5 different methods of detecting light on an object. Helpful for stealth games or any game where objects need to know when they are exposed to light.</p>
+                    <br>
+                    <h4>Features</h4>
+                    <ul>
+                        <li><strong>5 methods of light detection:</strong>
+                        <ol>
+                            <li><i>Raycats:</i> The object gets every light within range (as well as any directional light enabled) and raycasts to it and calculates the amount of light on the object based on the light's intensity, distance, and exposure.</li>
+                            <li><i>Sky Render Texture:</i> The object uses a camera to look towards the sun. It compresses the output and checks the average transparency of the texture to estimate the light exposure.</li>
+                            <li><i>Floor Render Texture:</i> The object uses a camera to look at the ground and compares the average output color with manually set dark and lit colors to find exposure.</li>
+                            <li><i>Mixed:</i> The object uses a camera to look at the sky like the sky render texture but then uses raycasts for every other light in range.</li>
+                            <li><i>Floor Override:</i> The object uses floor render texture to check if the light falls between the min and max light level and if so, it does raycasts to calculate the exact exposure.</li>
+                        </ol></li>
+                        <li><strong>Multi light support:</strong> Includes support for directional, point, spot, and area lights</li>
+                    </ul>
+                    <p>More details found on the <a href="https://github.com/ThomasMarascia/Advanced-Light-Detection-System" target="_blank">official documentation</a> including breakdowns for the pros and cons of each method and their performance.</p>
+                    <div class="tech-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Stealth</span>
+                    </div>
+                </div>
+
+                <div id="p9" class="project">
+                    <h1>2D Mining System</h1>
+                    <div class="banner-media-box">
+                        <img src="../images/MiningSystemImg.png">
+                    </div>
+                    <h4>Description</h4>
+                    <p>The 2D Mining System is a Unity Asset <a href="https://assetstore.unity.com/packages/slug/323492" target="_blank">available on the Unity Asset Store</a>.</p>
+                    <p>The asset allows for terraria-like 2D cave generation and player mining/building</p>
+                    <br>
+                    <h4>Features</h4>
+                    <ul>
+                        <li><strong>Procedural Generation:</strong> The system creates chunked areas either randomly or based on a seed.</li>
+                        <li><strong>Mining and Building:</strong> Players can "paint" on the world allowing for mining and building.</li>
+                        <li><strong>World Saving/loading:</strong> The world made by players can be saved into a seed and re loaded easily.</li>
+                    </ul>
+                    <p>More details found on the <a href="https://github.com/ThomasMarascia/Simple2DMiningSystem" target="_blank">official documentation</a> including breakdowns on how the generation and updating works.</p>
+                    <div class="tech-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Procedural Generation</span>
+                    </div>
+                </div>
+
+                <div id="p10" class="project">
+                    <h1>Ability System</h1>
+                    <div class="banner-media-box">
+                        <img src="../images/abilitySystemImg.png">
+                    </div>
+                    <h4>Description</h4>
+                    <p>The Simple Ability System is a Unity Asset <a href="https://assetstore.unity.com/packages/slug/323131" target="_blank">available on the Unity Asset Store</a>.</p>
+                    <p>The asset brings a modular ability system to any game.</p>
+                    <br>
+                    <h4>Features</h4>
+                    <ul>
+                        <li><strong>Multiple Ability Types:</strong> The system comes with 2 built-in ability types: Projectiles and Auras and more types can be easily added.</li>
+                        <li><strong>Built-in Projectile Features:</strong>
+                        <ul>
+                            <li>Projectile speed</li>
+                            <li>Bouncing projectiles</li>
+                            <li>Sticky projectiles</li>
+                            <li>Penetrates Targets</li>
+                        </ul></li>
+                        <li><strong>Built-in Aura Features:</strong>
+                        <ul>
+                            <li>Buff and debuff auras</li>
+                            <li>Growing and shrinking auras</li>
+                            <li>Placed auras and auras that move with the user</li>
+                        </ul></li>
+                        <li><strong>Ability Knockback:</strong> Both projectiles and auras can knock targets back.</li>
+                        <li><strong>Ability Leveling:</strong> Both projectiles and auras can be set up to level up automatically or manually.</li>
+                    </ul>
+                    <p>More details found on the <a href="https://github.com/ThomasMarascia/SimpleAbilitySystem" target="_blank">official documentation</a> including setup instructions and a settings breakdown.</p>
+                    <div class="tech-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Combat</span>
+                    </div>
+                </div>
+
+                <div id="p11" class="project">
+                    <h1>Build System</h1>
+                    <div class="banner-media-box">
+                        <img src="../images/buildSystemImg.png">
+                    </div>
+                    <h4>Description</h4>
+                    <p>The Simple Building System is a Unity Asset <a href="https://assetstore.unity.com/packages/slug/319108" target="_blank">available on the Unity Asset Store</a>.</p>
+                    <p>The asset allows for building runtime objects either on a grid or freely on any mesh or terrain.</p>
+                    <br>
+                    <h4>Features</h4>
+                    <ul>
+                        <li><strong>Automatic Grid Generation:</strong> Given a terrain or mesh, this system can create a grid either in editor or during runtime. Objects can then be placed on the grid.</li>
+                        <li><strong>Free Place Grids:</strong> On top of grid placements, grids can be setup to be free place meaning placed objects need not be perfectly snapped to the grid.</li>
+                        <li><strong>Object Stacking:</strong> By making placable objects also have grids, objects can be stacked on top of each other.</li>
+                        <li><strong>Easy Grid Customization:</strong> Settings make it very easy to customize grid size, cell size, placement modes, placement directions, and more.</li>
+                    </ul>
+                    <p>More details found on the <a href="https://github.com/ThomasMarascia/SimpleCityBuilder" target="_blank">official documentation</a> including setup and customization instructions as well as an in-depth settings breakdown.</p>
+                    <div class="tech-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Building</span>
+                    </div>
+                </div>
+
+                <div id="p12" class="project">
+                    <h1>Simple Calendar</h1>
+                    <div class="banner-media-box">
+                        <img src="../images/CalendarImg.png">
+                    </div>
+                    <h4>Description</h4>
+                    <p>The Simple Calendar is a Unity Asset <a href="https://assetstore.unity.com/packages/slug/313178" target="_blank">available on the Unity Asset Store</a>.</p>
+                    <p>The asset brings an interactable calendar to any 2D or 3D project.</p>
+                    <br>
+                    <h4>Features</h4>
+                    <ul>
+                        <li><strong>A Simple Calendar:</strong> Can be a UI element or placed as an object in the world. The current day will always be highlighted.</li>
+                        <li><strong>Interactable:</strong> Users can go forward and back through months and select specific days.</li>
+                    </ul>
+                    <p>More details found on the <a href="https://github.com/ThomasMarascia/SimpleCalendar" target="_blank">official documentation</a> including setup and customization instructions.</p>
+                    <div class="tech-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">UI</span>
+                    </div>
+                </div>
+                <div id="p13" class="project">
+                    <h1>Nine Circles</h1>
+                    <div class="banner-media-box">
+                        <img src="../images/NineCirclesImg.png">
+                    </div>
+                    <h4>Description</h4>
+                    <p>Nine Circles is a rogue-like boss rush game made in1 month for the Boss Rush Game Jam 2025.</p>
+                    <p>It can be <a href="https://thomasmarascia.itch.io/nine-circles" target="_blank">found on itch.io</a>.</p>
+                    <p>The game included 6 bosses on 2 maps. The player would fight a boss and would get money based on how quickly they beat it and how little damage they took.</p>
+                    <p>They could buy upgrades between each boss including:</p>
+                    <ul>
+                        <li><i>Seals:</i> objects that circled the player and did actions on rotations.</li>
+                        <li><i>Pacts:</i> Upgrades that when bought would have a downside.</li>
+                        <li><i>Basic Upgrades:</i> Simple upgrades like more speed, dashes, and damage.</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tag">Game Jam</span>
+
+                        <span class="tag">Unreal Engine</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">Web-Game</span>
+
+                        <span class="tag">Rogue-Like</span>
+
+                        <span class="tag">Combat</span>
+                        <span class="tag">Enemy AI</span>
+                    </div>
+                </div>
+
+                <div id="p14" class="project">
+                    <h1>Destiny's Choice</h1>
+                    <div class="banner-media-box">
+                        <img src="../images/destinyChoiceImg.png">
+                    </div>
+                    <h4>Description</h4>
+                    <p>Desiny's Choice is a short horror game made in 1 week for the Crazy Web Game Jam hosted by Unity in 2024.</p>
+                    <p>It can be <a href="https://thomasmarascia.itch.io/destinys-choice" target="_blank">found on itch.io</a>.</p>
+                    <p>Players explore a creepy office and house where they find photo evidence as collectables, pick locks to get into rooms, and try to solve a murder case.</p>
+                    <div class="tech-tags">
+                        <span class="tag">Game Jam</span>
+
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Web-Game</span>
+
+                        <span class="tag">Horror</span>
+                        <span class="tag">Mystery</span>
+                        <span class="tag">RPG</span>
+                    </div>
+                </div>
+                <div id="p15" class="project">
+                    <h1>StarChart</h1>
+                    <div class="banner-media-box">
+                        <img src="../images/starchartImg.png">
+                    </div>
+                    <h4>Description</h4>
+                    <p>StarChart is a blackout 2D platformer where players play in almost complete darkness and try to find their way to the end of linear levels</p>
+                    <p>Starchart was made in 1 week for <a href="https://app.thexplace.ai/app/talent/Thomas_Marascia/portfolio/667b60764c94f6f53e42d549" target="_blank">TheXPlace's game jam</a>.</p>
+                    <div class="tech-tags">
+                        <span class="tag">Game Jam</span>
+
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+                        
+                        <span class="tag">Platformer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="rainbow-line mt-5" style="background:#4fedff; height: 1px;"></div>
+
+
+    <div class="containerFooter" style="padding-bottom: 30px;">
+        <a class="pretty-button" href="../index.html">Thomas Marascia</a>
+        <a class="pretty-button" href="https://github.com/ThomasMarascia" target="_blank">Github</a>
+        <a class="pretty-button" href="https://www.linkedin.com/in/tref/" target="_blank">Linkedin</a>
+        <a class="pretty-button" href="privacy.html">Privacy Policy</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../scripts/projects.js"></script>
+</body>
+</html>
