@@ -216,7 +216,6 @@
 }
 
 .media-box {
-    height: 50vh;
     width: 40vh;
     background: #1e293b;
     border-radius: 12px;
@@ -233,7 +232,6 @@
 }
 .banner-media-box {
     margin: auto;
-    height: 60vh;
     width: 75%;
     border-radius: 12px;
     overflow: hidden;
