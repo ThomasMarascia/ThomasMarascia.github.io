@@ -5,10 +5,7 @@ function showProject(id) {
     if (el) el.style.display = 'block';
 
     document.querySelectorAll('.project-btn').forEach(btn => {
-    btn.classList.remove('active');
-    if (btn.dataset.project === id) {
-        btn.classList.add('active');
-    }
+        btn.classList.toggle('active', btn.dataset.project === id);
     });
 
     // Close sidebar on mobile
@@ -27,8 +24,6 @@ document.querySelectorAll('.project-btn').forEach(btn => {
     });
 });
 
-window.onload = () => {
-    const params = new URLSearchParams(window.location.search);
-    const project = params.get('project') || 'p1';
-    showProject(project);
-};
+const params = new URLSearchParams(window.location.search);
+const project = params.get('project') || 'p1';
+showProject(project);
